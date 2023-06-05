@@ -21,7 +21,11 @@ function App() {
   return (
     <div>
       <Button variant="text">Text</Button>
-      <Button variant="contained" startIcon={<SettingsIcon />}>
+      <Button
+        variant="contained"
+        startIcon={<SettingsIcon />}
+        color="otherColor"
+      >
         Settings
       </Button>
       <Button variant="contained" color="primary" size="small">
