@@ -52,7 +52,7 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+          SAPPLER
         </Typography>
         <AcUnitIcon sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
